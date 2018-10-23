@@ -1,0 +1,32 @@
+{
+  "name": "learn-express",
+  "version": "0.0.1",
+  "description": "learn to build a simple express apps with child process",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erictamhk/learn-express.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Omen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erictamhk/learn-express/issues"
+  },
+  "homepage": "https://github.com/erictamhk/learn-express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
+}
